@@ -1,0 +1,45 @@
+*{
+  transition: all 0.3s ease;
+}
+.nav-link:hover{
+  color:tomato !important;
+  
+}
+
+section{
+  padding: 60px 0;
+}
+#categories img:hover{
+  scale:1.05;
+}
+
+
+
+
+/* restart */
+.navbar-brand{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.brand-logo{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.brand-text{
+  color: black;
+}
+.brand-badge{
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.navbar-brand:hover .brand-text{
+  color: tomato ;
+}
+.navbar-brand:hover .brand-badge{
+  background-color: tomato;
+}
