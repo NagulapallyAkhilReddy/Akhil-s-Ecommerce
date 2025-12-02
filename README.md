@@ -1,0 +1,66 @@
+# 🛒 E-commerce Website 
+
+A custom-designed e-commerce front-end built using **HTML**, **CSS**, and **JavaScript**, focusing on responsive layouts, clean product UI, and modern design patterns.
+
+> 🔒 **The source code is private.**  
+> Only the deployment is publicly visible.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://ecommercewebsitebyakhil.netlify.app/
+
+---
+
+## 🧩 Key Features
+
+- Responsive layout for all screen sizes  
+- Product listing pages  
+- Product detail page  
+- Simple cart layout  
+- Modern CSS styling  
+- Organized folder structure with pages, scripts, and assets  
+
+This project emphasizes UI clarity, clean layouts, and a visually structured shopping interface.
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5**  
+- **CSS3** (Flexbox, Grid, Responsive Design)  
+- **JavaScript (ES6)**  
+
+---
+
+## 📁 Project Structure
+- assets/
+- favicon.png
+- JS/
+  - cart.js
+  - common.js
+  - product.js
+  - products.js
+- pages/
+  - cart.html
+  - product.html
+  - products.html
+  - index.html
+- style.css
+
+---
+
+## ⚠️ Private Notice
+
+This repository is private.  
+If you need access for hiring or review purposes, please contact me directly.
+
+---
+
+## 📬 Contact
+
+**Akhil Nagulapally**  | [akhilnagulapally.com](https://akhilnagulapally.com)
+- akhilnagulapally9@gmail.com 
+- Frontend Developer  
+
