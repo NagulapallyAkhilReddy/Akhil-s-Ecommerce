@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akhil's E-commerce</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div>
+<nav class="navbar navbar-expand-lg bg-success-subtle">
+  <div class="container d-flex justify-content-between">
+    <a class="navbar-brand d-flex align-items-center gap-2 text-decoration-none" href="./index.html">
+      <img src="./assets/favicon.png" alt="Favicon" class="brand-logo">
+      <span class="brand-text" href="./index.html">
+         Akhil's <span class="brand-badge">E-commerce</span>
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex flex-column flex-lg-row gap-2">
+        <li class="nav-item">
+          <a class="nav-link active fs-6 text-black" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fs-6 text-black" aria-current="page" href="./pages/products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fs-6 text-black" aria-current="page" href="./pages/cart.html">Cart <span id="cartcount" class="badge">0</span></a>
+        </li>
+      <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+</div>
+</header>
+  <main>
+    <section id="banner" class="p-0 m-0" >
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/65682584043550.jpg" class="d-block w-100" alt="Image1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/65682584174622.jpg" class="d-block w-100" alt="Image2">
+    </div>
+    <div class="carousel-item">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/65682583978014.jpg" class="d-block w-100" alt="Image3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-3" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+    <h2 class="m-2 p-2 text-center">Categories</h2>
+    <section id="categories" class="container d-flex gap-2 justify-content-center object-fit-cover  " style="width: 1280px;">
+      <!-- <img src="https://assets.tatacliq.com/medias/sys_master/images/64927661555742.png" alt="watches" class="rounded-circle object-fit-cover" > -->
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656640542.png" alt="Footwear" class="img-thumbnail" > </div>
+      <!-- <img src="https://assets.tatacliq.com/medias/sys_master/images/64927656968222.png" alt="Gadgets" > did not fir right becaus eof the image size , how to fix this issue -->
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656706078.png" alt="KidsWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656509470.png" alt="MensWear"  class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656443934.png" alt="WomensWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656706078.png" alt="KidsWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656509470.png" alt="MensWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656443934.png" alt="WomensWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656706078.png" alt="KidsWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656509470.png" alt="MensWear" class="img-thumbnail"></div>
+      <div><img src="https://assets.tatacliq.com/medias/sys_master/images/64927656443934.png" alt="WomensWear" class="img-thumbnail "></div>
+    </section>
+    <h2 class="m-2 p-2 text-center">My Top Products</h2>
+    <section>
+      <div id="Products" class="d-flex gap-3 container "></div>
+    </section>
+  </main>
+  <footer class="text-center text-warning bg-black py-1">
+    <hr>
+    <p>This site belong to AKHIL REDDY &copy; 2025</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" ></script>
+  <script src="./index.js"></script>
+  <script src="./JS/common.js"></script>
+</body>
+</html>

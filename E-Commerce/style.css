@@ -1,0 +1,65 @@
+*{
+  transition: all 0.3s ease;
+}
+body{
+  height: 100vh;
+}
+.nav-link:hover{
+  color: tomato !important;
+}
+/* #categories{
+  width: 150px !important;
+  height: auto !important;
+  object-fit: contain;
+  transition: transform 0.3s ease;  
+} */
+
+section{
+  padding: 50px 0px;
+}
+
+#categories img:hover{
+  transform: scale(1.05);
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+#mainProducts{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+#cartProducts{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+/* restart */
+.navbar-brand{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.brand-logo{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.brand-text{
+  color: black;
+}
+.brand-badge{
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.navbar-brand:hover .brand-text{
+  color: tomato ;
+}
+.navbar-brand:hover .brand-badge{
+  background-color: tomato;
+}

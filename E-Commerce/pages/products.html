@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <div>
+    <nav class="navbar navbar-expand-lg bg-success-subtle">
+  <div class="container d-flex justify-content-between">
+   <div class="d-flex align-items-center gap-2" href="../index.html">
+      <img src="../assets/favicon.png" alt="Favicon" style="height: 40px;">
+    <a class="navbar-brand" href="../index.html">
+      Akhil's <span class="text-bg-dark p-2 rounded-3">E-commerce</span>
+    </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex flex-column flex-lg-row gap-2">
+        <li class="nav-item">
+          <a class="nav-link active fs-6 text-black" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fs-6 text-black" aria-current="page" href="./products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fs-6 text-black" aria-current="page" href="./cart.html">Cart <span id="cartcount" class="badge">0</span></a>
+        </li>
+      
+    </div>
+  </div>
+</nav>
+</div>
+  </header>
+  <main>
+    <div id="filters" class="container d-flex justify-content-between">
+      <div>
+            <select name="categories" id="categories" class="" style="width: 200px; height: 30px;"></select>
+
+      </div>
+      <div>
+    <form id="searchForm" class="d-flex gap-2">
+    
+      <input class="form-control"  type="text" name="searchItem" id="searchItem">
+      <button class=" btn btn-primary" id="searchBtn">search</button>
+   
+    </form>
+    </div>
+    </div>
+    <section id="mainProducts" class="gap-5" >
+
+    </section>
+  </main>
+  <footer class="text-center text-warning bg-black py-1">
+    <hr>
+    <p>This site belong to AKHIL REDDY &copy; 2025</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" ></script>
+  <script src="../JS/products.js"></script>
+  <script src="../JS/common.js"></script>
+</body>
+</html>
