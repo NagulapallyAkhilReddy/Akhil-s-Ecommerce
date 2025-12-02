@@ -2,8 +2,7 @@
 
 A custom-designed e-commerce front-end built using **HTML**, **CSS**, and **JavaScript**, focusing on responsive layouts, clean product UI, and modern design patterns.
 
-> 🔒 **The source code is private.**  
-> Only the deployment is publicly visible.
+
 
 ---
 
@@ -51,10 +50,10 @@ This project emphasizes UI clarity, clean layouts, and a visually structured sho
 
 ---
 
-## ⚠️ Private Notice
+## 📌 Note
 
-This repository is private.  
-If you need access for hiring or review purposes, please contact me directly.
+This project is part of my frontend development learning and portfolio showcase.  
+I welcome any review or feedback from recruiters, developers, or collaborators.
 
 ---
 
